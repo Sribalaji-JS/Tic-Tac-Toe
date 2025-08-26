@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic-Tac-Toe Game</title>
+</head>
+<body>
+    <h1 class="title">Tic-Tac-Toe Game</h1>
+    <div class="container" id="login"> 
+        <button class="mode" id="singleplayer">
+            <p>
+                <i>P</i>
+                <i>V</i>
+                <i>C</i>
+                <!-- <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-v"></i>
+                <i class="fa-brands fa-android"></i> -->
+            </p>
+        </button>
+        <button class="mode" id="multiplayer">
+            <p>
+                <i>P</i>
+                <i>V</i>
+                <i>P</i>
+                <!-- <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-v"></i>
+                <i class="fa-solid fa-user"></i>  -->
+            </p>
+        </button>
+    </div>
+    <div class="choose">
+        <p>Whichever your want to choose...?</p>
+        <div class="option" >
+            <input type="button" id="optionX" value="X">
+            <input type="button" id="optionO" value="O">
+        </div>
+    </div>
+    <div class="container-board">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+    </div>
+    <div class="gameplayers">
+        <span class="player" id="player1">Player : X</span>
+        <span class="player" id="player2">Player : O</span>
+    </div>
+    <button class="reset">Reset</button>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/55b077866a.js" crossorigin="anonymous"></script>
+</body>
+</html>
